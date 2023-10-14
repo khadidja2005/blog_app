@@ -4,7 +4,8 @@ import Index from './Pages/Index'
 import Login from './Pages/Login'
 import Layout from './components/Layout'
 import Register from './Pages/Register'
-
+import axios from 'axios'
+axios.defaults.baseURL="http://localhost:4000";
 const App = () => {
   return (
     <Routes>
